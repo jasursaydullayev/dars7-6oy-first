@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@100;200;300;400;500;600;800;900&display=swap');
+html{
+  height: 100%;
+}
+body {
+  height: 100%;
+  font-family: 'Titillium Web', sans-serif;
+}
+#root{
+  height: inherit;
+}
+@layer {
+  .cite-container {
+      @apply   max-w-[1580px] mx-auto  px-5
+  }
+  .navbar-comtainer{
+    @apply   max-w-[1510px] mx-auto  px-5
+  }
+}
+.active{
+  color: black;
+  font-weight: 700;
+  border-bottom: 2px solid #000;
+}
